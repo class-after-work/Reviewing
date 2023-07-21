@@ -14,12 +14,29 @@
         placeholder="Plz write your name."
         maxlength="10"
       />
-      <button id="Btn">Log in</button>
+      <button id="login">Log in</button>
+      <button id="logout">Log out</button>
     </form>
+    <!-- 로그인 로그아웃 폼 -->
+    <form id="todo-form">
+      <input type="text" placeholder="What do you have to do?" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <!-- to do list 폼 -->
     <h3 id="clock"></h3>
+    <!-- 실시간 시계 -->
     <h1 id="greeting"></h1>
-
-    <script src="JS/Login.js"></script>
+    <!-- Hello username -->
+    <div id="quotes">
+      <span></span>
+      <span></span>
+    </div>
+    <!-- 명언  -->
+    <script src="JS/login.js"></script>
+    <script src="JS/logout.js"></script>
+    <script src="JS/todo.js"></script>
     <script src="JS/clock.js"></script>
+    <script src="JS/quotes.js"></script>
+    <script src="JS/bgimages.js"></script>
   </body>
 </html>
